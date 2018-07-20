@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     text-align: center;
@@ -33,6 +33,16 @@ nav a {
 nav a:hover {
     color: #DA4A4A;
     text-decoration: none;
+}
+
+.shrink {
+    position: fixed;
+    color: #333333;
+    text-shadow: none;
+}
+
+.shrink a {
+    color: #333333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,10 +80,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-pane {
+    width: 100%;
+    min-height: 40%;
+    height: auto;
+    padding: 1px 15px 15px 15px;
     color: white;
+    text-align: center;
 }
 
 .contact-pane img {
     height: 50px;
     width: auto;
+    padding: 5px;
 }
