@@ -35,15 +35,20 @@ nav a:hover {
     text-decoration: none;
 }
 
-.shrink {
+nav a:active, nav a:focus {
+    text-decoration: none;
+}
+
+/* .shrink {
     position: fixed;
+    height: 25px;
     color: #333333;
-    text-shadow: none;
+    text-shadow: 0 0 4px white;
 }
 
 .shrink a {
     color: #333333;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Coda Caption', sans-serif;
@@ -56,6 +61,12 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 100%;
     height: auto;
     padding: 1px 15px 15px 15px;
+}
+
+.content-pane .tag-line {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 15px 5px 15px;
 }
 
 .title-pane {
@@ -79,6 +90,14 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
 }
 
+.down {
+    padding: 0 7px;
+    font-size: 35px;
+    position: absolute;
+    right: 0;
+    top: 95%;
+}
+
 .contact-pane {
     width: 100%;
     min-height: 40%;
@@ -92,4 +111,61 @@ h1, h2, h3, h4, h5, h6 {
     height: 50px;
     width: auto;
     padding: 5px;
+}
+
+.about-pane img {
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+    border: 10px solid #FC7D7D20;
+    display: block;
+    margin: 25px auto;
+}
+
+.about-pane-content {
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: auto;
+    font-size: 15px;
+}
+
+.about-pane-content-1 {
+    text-align: justify;
+}
+
+.about-pane-content-2 table {
+    width: 100%;
+}
+
+.about-pane-content-2 th, .about-pane-content-2 td {
+    padding: 0 5px;
+    min-width: 175px;
+    vertical-align: top;
+}
+
+.experience-pane {
+    font-size: 15px;
+}
+
+.experience-pane-content-1 {
+    display: block;
+    margin: auto;
+    width: 65%;
+}
+
+.experience-pane-content-1 table {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+.experience-pane-content-1 td {
+    min-width: 325px;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.info-tag, .info-tag a {
+    color: #DA4A4A;
 }

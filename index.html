@@ -12,14 +12,15 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body id="main">
     <nav>
-        <a href="javascript:void(0)">About</a> &bull;
-        <a href="javascript:void(0)">Experience</a> &bull;
-        <a href="javascript:void(0)">Skills</a> &bull;
-        <a href="javascript:void(0)">Projects</a> &bull;
-        <a href="javascript:void(0)">Contact</a>
+        <a href="#about">About</a> &bull;
+        <a href="#experience">Experience</a> &bull;
+        <a href="#skills">Skills</a> &bull;
+        <a href="#projects">Projects</a> &bull;
+        <a href="#contact">Contact</a>
     </nav>
     <div class="content-pane title-pane">
         <div class="title-pane-panel">
@@ -27,21 +28,128 @@
             <hr>
             <h3>Software Developer / Engineer</h3>
         </div>
+        <span class="glyphicon glyphicon-chevron-down down"></span>
+    </div>
+    <div class="content-pane about-pane">
+        <h1><a id="about"></a>About</h1>
+        <p class="tag-line">I am a Senior in Computer Science at North Carolina State University</p>
+        <hr>
+        <img src="assets/images/IMG_4095.jpg" />
+        <div class="about-pane-content about-pane-content-1">
+            <p>Hi, I'm Courtney! I am an all around software developer. I am currently pursuing a degree in
+                Computer Science at North Carolina State University.</p>
+            <p>I have a hardwired desire to learn new things and apply my current technical skill set. 
+                I am excited about all avenues software and design. Additionally, I am passionate about graphic
+                design and applying that to my current career path.</p>
+            <hr>
+        </div>
+        <div class="about-pane-content about-pane-content-2">
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <th>Education:</th>
+                    <th>Degree:</th>
+                    <th>Location:</th>
+                </tr>
+                <tr>
+                    <td>Courtney T. Ripoll</td>
+                    <td>North Carolina State University '19</td>
+                    <td>Computer Science BS</td>
+                    <td>Charlotte; Raleigh-Durham</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="content-pane experience-pane" style="background-color: #cccccc20">
+        <h1><a id="experience"></a>Experience</h1>
+        <hr>
+        <div class="experience-pane-content-1">
+            <table>
+                <tr>
+                    <td><b style="font-size:18px;">Allscripts</b><br>May 2018 - August 2018</td>
+                    <td>
+                        <p><b>Software Development Intern</b></p>
+                        <p>
+                            As a Software Development Intern at Allscripts, I experienced firsthand
+                            the overall development process, which included the business and the technical
+                            areas of a project. My role provided me the opportunity to dive into a full-stack 
+                            development project, exposing me to a wide range of software tools including 
+                            ASP.NET Core, Visual Studio, C#, Javascript, CSS and SQL databases. Additionally,
+                            I was able to assist my team in their development project, allowing me to engage in 
+                            pair programming, to work in Angular, and participate in scrum meetings.
+                        </p>
+                        <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span> Raleigh, NC |
+                            <span class="glyphicon glyphicon-link"></span> <a href="https://www.allscripts.com"
+                                target="_blank">https://www.allscripts.com</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b style="font-size:18px;">NCSU Undergraduate Labs</b><br>August 2017 - Present</td>
+                    <td>
+                        <p><b>Teaching Assistant - Introduction to Java</b></p>
+                        <p>
+                            My responsibilities as a teaching assistant for Introduction to 
+                            Java (CSC116) included attending class lectures to help students 
+                            with any questions and in-class assignments. Along with that, I 
+                            held personal office hours once a week to help students with any 
+                            questions or problems they are having in relation to coursework. 
+                            My duties as a TA, along with a co TA, involved grading all class 
+                            assignments such as homework, exams, projects, etc. I also remained 
+                            available outside of class via email and class forum.
+                        </p>
+                        <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span> Raleigh, NC</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b style="font-size:18px;">Automotive Development Group</b><br>June 2017 - August 2017</td>
+                    <td>
+                        <p><b>Data Entry Intern</b></p>
+                        <p>
+                            My main role at Automotive Development Group involved collecting 
+                            and inputting data from incoming job applications into an online 
+                            data source called Taleo. Additionally, I partook in designing and 
+                            generating company reports based off of the hiring process and job 
+                            requisitions. In relation to reporting, I took the initiative to 
+                            develop and design an executable program to automate a specific 
+                            reporting technique and streamline the process. At the conclusion 
+                            of my time here, I wrote a manual about my acquired knowledge in the 
+                            basics of reporting to aid the company in their future endeavors. 
+                        </p>
+                        <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span> Mooresville, NC |
+                            <span class="glyphicon glyphicon-link"></span> <a href="https://www.automotivedevelopmentgroup.com" 
+                                target="_blank">https://www.automotivedevelopmentgroup.com</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b style="font-size:18px;">INTech Camp for Girls</b><br>June 2017</td>
+                    <td>
+                        <p><b>Tech Mentor</b></p>
+                        <p>
+                            As a technical mentor, I was responsible for teaching and assisting 
+                            a group of middle school to high school aged girls while they built 
+                            a website utilizing HTML, CSS, and Javascript. The girls attended 
+                            lessons about the technology they we going to use, engaged in making 
+                            paper prototypes, conducted research on their website topics, and then 
+                            coded the final product.
+                        </p>
+                        <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span> Raleigh, NC |
+                            <span class="glyphicon glyphicon-link"></span> <a href="http://intechcamp.co"
+                                target="_blank">http://intechcamp.co</a></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="content-pane" style="background-color: #FC7D7D20">
+        <h1><a id="skills"></a>Skills</h1>
+        <hr>
     </div>
     <div class="content-pane">
-        <h1>About</h1>
-    </div>
-    <div class="content-pane" style="background-color: #cccccc50">
-        <h1>Experience</h1>
-    </div>
-    <div class="content-pane" style="background-color: #FC7D7D30">
-        <h1>Skills</h1>
-    </div>
-    <div class="content-pane">
-        <h1>Projects</h1>
+        <h1><a id="projects"></a>Projects</h1>
+        <hr>
     </div>
     <div class="contact-pane" style="background-color: #434242">
-        <h1>Contact</h1>
+        <h1><a id="contact"></a>Contact</h1>
         <br>
         <p>Tel: <u>(704) 881 - 2425</u> &nbsp; &bull; &nbsp; Email: <u>ctripoll@ncsu.edu</u></p>
         <a href="https://www.facebook.com/courtney.ripoll.1" target="_blank"><img src="assets/images/social_icons/if_Facebook_2503966.svg"/></a>
