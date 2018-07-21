@@ -12,6 +12,7 @@ html, body {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
 
 nav {
@@ -117,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 300px;
     width: auto;
     border-radius: 50%;
-    border: 10px solid #FC7D7D20;
+    border: 10px solid #FC7D7D25;
     display: block;
     margin: 25px auto;
 }
@@ -127,11 +128,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     width: 700px;
     height: auto;
-    font-size: 15px;
 }
 
 .about-pane-content-1 {
     text-align: justify;
+}
+
+.about-pane-content-2 {
+    padding-bottom: 35px;
 }
 
 .about-pane-content-2 table {
@@ -142,10 +146,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 5px;
     min-width: 175px;
     vertical-align: top;
+    text-align: center;
 }
 
-.experience-pane {
-    font-size: 15px;
+.experience-pane hr {
+    border-color: #cccccc60;
 }
 
 .experience-pane-content-1 {
@@ -157,15 +162,33 @@ h1, h2, h3, h4, h5, h6 {
 .experience-pane-content-1 table {
     width: 100%;
     text-align: justify;
-    margin-bottom: 35px;
+    margin-bottom: 5px;
 }
 
 .experience-pane-content-1 td {
     min-width: 325px;
     vertical-align: top;
-    padding: 5px;
+    padding: 0 5px 30px 5px;
 }
 
 .info-tag, .info-tag a {
     color: #DA4A4A;
+}
+
+.skills-pane hr {
+    border-color: #cccccc80;
+}
+
+.skills-pane-content {
+    display: block;
+    margin: auto;
+    width: 675px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.skills-pane-content i {
+    font-size: 45px;
+    color: #DA4A4A;
+    padding: 0 3px;
 }
