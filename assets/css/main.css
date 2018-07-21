@@ -31,12 +31,12 @@ nav a {
     padding: 10px;
 }
 
-nav a:hover {
+nav a:hover, .side-menu a:hover {
     color: #DA4A4A;
     text-decoration: none;
 }
 
-nav a:active, nav a:focus {
+nav a:active, nav a:focus, .side-menu a:active, .side-menu a:focus {
     text-decoration: none;
 }
 
@@ -55,6 +55,30 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Coda Caption', sans-serif;
     font-weight: 400;
     text-align: center;
+}
+
+.side-menu {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 100vh;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    background: #434242;
+    height: auto;
+    width: 120px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px black;
+}
+
+.fixed {
+    position: fixed !important;
+    top: 0 !important;
+}
+
+.side-menu a {
+    color: white;
 }
 
 .content-pane {
@@ -96,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 35px;
     position: absolute;
     right: 0;
-    top: 95%;
+    top: calc(100vh - 37px);
 }
 
 .contact-pane {
@@ -118,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 300px;
     width: auto;
     border-radius: 50%;
-    border: 10px solid #FC7D7D25;
+    border: 10px solid #FC7D7D50;
     display: block;
     margin: 25px auto;
 }
@@ -175,10 +199,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #DA4A4A;
 }
 
-.skills-pane hr {
-    border-color: #cccccc80;
-}
-
 .skills-pane-content {
     display: block;
     margin: auto;
@@ -191,4 +211,76 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 45px;
     color: #DA4A4A;
     padding: 0 3px;
+}
+
+.skills-pane-content i:hover {
+    color: #333333;
+}
+
+.projects-pane hr {
+    border-color: #cccccc60;
+}
+
+.projects-pane {
+    text-align: center;
+}
+
+.projects-pane-content {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-pane-content .proj-container {
+    position: relative;
+    width: 375px;
+    margin: 0;
+}
+
+.projects-pane-content .proj-container img {
+    display: block;
+    width: 375px;
+    height: 210px;
+    border: 1px solid #cccccc60;
+    margin: 10px;
+}
+
+.projects-pane-content .proj-container .overlay {
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    height: 210px;
+    width: 375px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #DA4A4A99;
+}
+
+.projects-pane-content .proj-container:hover .overlay {
+    opacity: 1;
+}
+
+.projects-pane-content .proj-container .overlay .text {
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding: 0 15px 15px 15px;
+    width: 100%;
+}
+
+.projects-pane-content .proj-container .overlay .text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.projects-pane-content .proj-container .overlay .text hr {
+    border-color: white;
+}
+
+.projects-pane-content .proj-container .overlay .text .proj-link {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    font-size: 20px;
 }

@@ -1,8 +1,8 @@
 $(document).on("scroll", function() {
-    if($(document).scrollTop() > 725) {
-        $("nav").addClass("shrink");
+    if($(document).scrollTop() > window.innerHeight) {
+        $("#side-menu").addClass("fixed");
     } else {
-        $("nav").removeClass("shrink");
+        $("#side-menu").removeClass("fixed");
     }
 });
 
