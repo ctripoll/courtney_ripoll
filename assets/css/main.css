@@ -31,26 +31,6 @@ nav a {
     padding: 10px;
 }
 
-nav a:hover, .side-menu a:hover {
-    color: #DA4A4A;
-    text-decoration: none;
-}
-
-nav a:active, nav a:focus, .side-menu a:active, .side-menu a:focus {
-    text-decoration: none;
-}
-
-/* .shrink {
-    position: fixed;
-    height: 25px;
-    color: #333333;
-    text-shadow: 0 0 4px white;
-}
-
-.shrink a {
-    color: #333333;
-} */
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Coda Caption', sans-serif;
     font-weight: 400;
@@ -79,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .side-menu a {
     color: white;
+    text-shadow: 0 0 4px black;
 }
 
 .content-pane {
@@ -113,6 +94,27 @@ h1, h2, h3, h4, h5, h6 {
     width: 800px;
     text-align: center;
     display: inline-block;
+}
+
+.title-pane-panel a {
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    padding: 7px 10px;
+    text-shadow: 0 0 6px black;
+    box-shadow: 0 0 6px black;
+    border-radius: 4px;
+}
+
+nav a:hover, .side-menu a:hover, .title-pane-panel a:hover {
+    color: #DA4A4A;
+    text-decoration: none;
+}
+
+nav a:active, nav a:focus, 
+.side-menu a:active, .side-menu a:focus, 
+.title-pane-panel a:active, .title-pane-panel a:focus {
+    text-decoration: none;
 }
 
 .down {
