@@ -93,6 +93,7 @@ nav a:active, nav a:focus,
     filter: grayscale();
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -105,6 +106,10 @@ nav a:active, nav a:focus,
     width: 800px;
     text-align: center;
     display: inline-block;
+}
+
+.title-pane-panel h1 {
+    font-size: 60px;
 }
 
 .title-pane-panel a {
@@ -166,8 +171,13 @@ nav a:active, nav a:focus,
     text-align: justify;
 }
 
+.about-pane-content-3 {
+    display: none;
+}
+
 .about-pane-content-2 {
     padding-bottom: 35px;
+    display: block;
 }
 
 .about-pane-content-2 table {
@@ -197,6 +207,10 @@ nav a:active, nav a:focus,
     margin-bottom: 5px;
 }
 
+.mobile_desc {
+    display: none;
+}
+
 .experience-pane-content-1 td {
     min-width: 325px;
     vertical-align: top;
@@ -205,6 +219,7 @@ nav a:active, nav a:focus,
 
 .info-tag, .info-tag a {
     color: #DA4A4A;
+    text-align: left;
 }
 
 .skills-pane-content {
@@ -286,9 +301,17 @@ nav a:active, nav a:focus,
     border-color: white;
 }
 
-.projects-pane-content .proj-container .overlay .text .proj-link {
+.proj-link {
+    z-index: 10;
+    color: white;
+    background: #DA4A4A;
+    padding: 10px;
     position: absolute;
-    top: 7px;
-    right: 7px;
+    top: 10px;
+    right: -10px;
     font-size: 20px;
+}
+
+.nb {
+    display: block;
 }

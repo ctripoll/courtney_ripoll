@@ -1,0 +1,105 @@
+@media only screen and (max-width: 549px) {
+    html, body {
+        overflow-x: hidden !important;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .title-pane {
+        background-image: url("../images/computer-background.jpg");
+        background-attachment: unset;
+        width: 100vw;
+    }
+
+    .title-pane-panel {
+        width: 100%;
+    }
+
+    .title-pane-panel h1 {
+        font-size: 35px;
+    }
+
+    .title-pane-panel h3 {
+        font-size: 22px;
+    }
+
+    .title-pane-panel a {
+        font-size: 15px;
+        padding: 3px 13px 5px 13px;
+    }
+
+    .down {
+        background: #434242;
+        left: 0;
+        padding: 7px;
+        display: block;
+        top: calc(100vh - 48px);
+    }
+
+    .about-pane-content {
+        width: 100%;
+    }
+
+    .about-pane-content-2 {
+        display: none;
+    }
+
+    .about-pane-content-3 {
+       display: block;
+       padding-bottom: 20px;
+    }
+
+    .about-pane-content-3 b {
+        width: 50px;
+    }
+
+    .experience-pane-content-1 {
+        width: 100%;
+    }
+
+    .experience-pane-content-1 td.desc {
+        display: none;
+    }
+
+    .mobile_desc {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .skills-pane-content {
+        width: 100%;
+    }
+
+    .skills-pane-content i {
+        font-size: 40px;
+    }
+
+    .projects-pane-content {
+        display: block;
+    }
+
+    .projects-pane-content .proj-container {
+        width: 325px;
+    }
+
+    .projects-pane-content .proj-container img {
+        width: 325px;
+        height: 180px;
+    }
+
+    .projects-pane-content .proj-container .overlay {
+        top: 0;
+        height: 180px;
+        width: 325px;
+    }
+
+    .proj-link {
+        top: 0;
+    }
+
+    .nb {
+        display: none;
+    }
+}
