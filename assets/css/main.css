@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .side-menu {
+    display: block;
     position: absolute;
     z-index: 10;
     right: 0;
@@ -134,6 +135,7 @@ nav a:active, nav a:focus,
     position: absolute;
     right: 0;
     top: calc(100vh - 37px);
+    text-shadow: 0 0 6px black;
 }
 
 .contact-pane {
