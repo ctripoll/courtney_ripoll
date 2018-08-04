@@ -15,7 +15,11 @@ body {
     font-size: 15px;
 }
 
-nav {
+nav.mobile_nav {
+    display: none;
+}
+
+nav.pc_nav {
     position: absolute;
     top: 0;
     width: 100%;
@@ -26,7 +30,7 @@ nav {
     z-index: 999;
 }
 
-nav a {
+nav.pc_nav a {
     color: white;
     padding: 10px;
 }
@@ -63,12 +67,12 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 0 0 4px black;
 }
 
-nav a:hover, .side-menu a:hover {
+nav.pc_nav a:hover, .side-menu a:hover {
     color: #DA4A4A;
     text-decoration: none;
 }
 
-nav a:active, nav a:focus,
+nav.pc_nav a:active, nav.pc_nav a:focus,
 .side-menu a:active, .side-menu a:focus,
 .title-pane-panel a:active, .title-pane-panel a:focus {
     text-decoration: none;
@@ -91,7 +95,7 @@ nav a:active, nav a:focus,
     color: white;
     text-shadow: 0 0 6px black;
     background-image: url("../images/code-background.jpg");
-    filter: grayscale();
+    filter: grayscale(100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

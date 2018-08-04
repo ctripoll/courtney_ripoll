@@ -3,8 +3,17 @@
         overflow-x: hidden !important;
     }
 
-    nav {
+    nav.pc_nav {
         display: none;
+    }
+
+    nav.mobile_nav {
+        font-family: 'Open Sans', sans-serif;
+        z-index: 15;
+        display: block;
+        background-color: #434242;
+        border-color: #333333;
+        margin-bottom: -20px;
     }
 
     .title-pane {
