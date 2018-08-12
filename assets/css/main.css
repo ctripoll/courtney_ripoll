@@ -151,6 +151,10 @@ nav.pc_nav a:active, nav.pc_nav a:focus,
     text-align: center;
 }
 
+.contact-pane a {
+    color: white;
+}
+
 .contact-pane img {
     height: 50px;
     width: auto;
