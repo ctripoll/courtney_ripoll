@@ -322,6 +322,23 @@ nav.pc_nav a:active, nav.pc_nav a:focus,
     font-size: 20px;
 }
 
+.this_proj_button {
+    display: block;
+    margin: 0 auto;
+    background-color: #d43f3a;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #434242;
+    padding: 5px;
+    width: 225px;
+    box-shadow: inset 0 0 5px #912b28;
+    font-weight: lighter;
+}
+
+.this_proj_button a, .this_proj_button:focus, .this_proj_button a:hover, .this_proj_button a:active {
+    color: white;
+}
+
 .nb {
     display: block;
 }
