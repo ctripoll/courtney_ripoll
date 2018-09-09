@@ -324,7 +324,7 @@ nav.pc_nav a:active, nav.pc_nav a:focus,
 
 .this_proj_button {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 25px auto;
     background-color: #d43f3a;
     color: white;
     border-radius: 3px;
