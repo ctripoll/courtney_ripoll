@@ -161,7 +161,7 @@ nav.pc_nav a:active, nav.pc_nav a:focus,
     padding: 5px;
 }
 
-.about-pane img {
+.about-pane .avatar {
     height: 300px;
     width: auto;
     border-radius: 50%;
@@ -175,6 +175,11 @@ nav.pc_nav a:active, nav.pc_nav a:focus,
     margin: auto;
     width: 700px;
     height: auto;
+}
+
+.about-pane-content .cert-panel {
+    margin: 15px auto;
+    display: table;
 }
 
 .about-pane-content-1 {
@@ -341,4 +346,9 @@ nav.pc_nav a:active, nav.pc_nav a:focus,
 
 .nb {
     display: block;
+}
+
+.gsec-cert {
+    width: auto;
+    height: 65px;
 }
