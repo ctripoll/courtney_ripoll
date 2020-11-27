@@ -64,11 +64,11 @@
         width: 50px;
     }
 
-    .experience-pane-content-1 {
+    .experience-pane-content-1, .recommendations-pane-content-1 {
         width: 100%;
     }
 
-    .experience-pane-content-1 td.desc {
+    .experience-pane-content-1 td.desc, .recommendations-pane-content-1 td.desc {
         display: none;
     }
 
@@ -86,7 +86,7 @@
     }
 
     .projects-pane-content {
-        display: block;
+        display: grid;
     }
 
     .projects-pane-content .proj-container {
@@ -110,6 +110,10 @@
 
     .projects-pane-content .proj-container .overlay .text h3 {
         font-size: 20px;
+    }
+
+    .recommendations-pane h1 {
+        font-size: 30px !important;
     }
 
     .proj-link {

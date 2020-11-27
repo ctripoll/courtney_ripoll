@@ -10,6 +10,10 @@ html, body {
     box-sizing: border-box;
 }
 
+a, a:hover {
+    color: #DA4A4A;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -48,11 +52,11 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     top: 100vh;
     margin: 20px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     background: #434242;
     height: auto;
-    width: 120px;
+    width: 175px;
     border-radius: 3px;
     box-shadow: 0 0 5px black;
 }
@@ -206,17 +210,17 @@ nav.pc_nav a:active, nav.pc_nav a:focus,
     text-align: center;
 }
 
-.experience-pane hr {
+.experience-pane hr, .recommendations-pane hr, .projects-pane hr {
     border-color: #cccccc60;
 }
 
-.experience-pane-content-1 {
+.experience-pane-content-1, .recommendations-pane-content-1 {
     display: block;
     margin: auto;
     width: 65%;
 }
 
-.experience-pane-content-1 table {
+.experience-pane-content-1 table, .recommendations-pane-content-1 table {
     width: 100%;
     text-align: justify;
     margin-bottom: 5px;
@@ -226,10 +230,14 @@ nav.pc_nav a:active, nav.pc_nav a:focus,
     display: none;
 }
 
-.experience-pane-content-1 td {
+.experience-pane-content-1 td, .recommendations-pane-content-1 td {
     min-width: 325px;
     vertical-align: top;
     padding: 0 5px 30px 5px;
+}
+
+.recommendations-pane-content-1 td {
+    min-width: 275px !important;
 }
 
 .info-tag, .info-tag a {
@@ -253,10 +261,6 @@ nav.pc_nav a:active, nav.pc_nav a:focus,
 
 .skills-pane-content i:hover {
     color: #333333;
-}
-
-.projects-pane hr {
-    border-color: #cccccc60;
 }
 
 .projects-pane {
