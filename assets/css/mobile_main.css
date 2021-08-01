@@ -1,4 +1,4 @@
-@media only screen and (max-width: 549px) {
+@media only screen and (max-width: 850px) {
     html, body {
         overflow-x: hidden !important;
     }
@@ -70,6 +70,10 @@
 
     .experience-pane-content-1 td.desc, .recommendations-pane-content-1 td.desc {
         display: none;
+    }
+
+    .experience-pane-content-1  .mobile_desc .info-tag {
+        padding-top: 10px !important;
     }
 
     .mobile_desc {
