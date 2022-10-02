@@ -1,475 +1,522 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Courtney Ripoll</title>
     <link rel="shortcut icon" type="image/png" href="assets/favicon.ico">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
-    <link rel="stylesheet" href="assets/node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/node_modules/bootstrap/dist/css/bootstrap.css" />
     <script src="assets/node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/mobile_main.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/mobile_main.css" />
 </head>
+
 <body id="main">
-<nav class="pc_nav">
-    <a href="#about">About</a> &bull;
-    <a href="#experience">Experience</a> &bull;
-    <a href="#skills">Skills</a> &bull;
-    <a href="#projects">Projects</a> &bull;
-    <a href="#recommendations">Recommendations</a> &bull;
-    <a href="#contact">Contact</a>
-</nav>
-<nav class="navbar navbar-inverse navbar-fixed-top mobile_nav">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+    <nav class="pc_nav">
+        <a href="#about">About</a> &bull;
+        <a href="#experience">Experience</a> &bull;
+        <a href="#skills">Skills</a> &bull;
+        <a href="#projects">Projects</a> &bull;
+        <a href="#recommendations">Recommendations</a> &bull;
+        <a href="#contact">Contact</a>
+    </nav>
+    <nav class="navbar navbar-inverse navbar-fixed-top mobile_nav">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
                     aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#recommendations">Recommendations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="content-pane title-pane">
+        <div class="title-pane-panel">
+            <h1>Courtney Ripoll</h1>
+            <hr>
+            <h3 style="padding-bottom: 20px;">Software Engineer</h3>
+            <a href="assets/Courtney_Ripoll_Resume.pdf" target="_blank">Resume</a>
+            <span class="glyphicon glyphicon-chevron-down down"></span>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#recommendations">Recommendations</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
-<div class="content-pane title-pane">
-    <div class="title-pane-panel">
-        <h1>Courtney Ripoll</h1>
-        <hr>
-        <h3 style="padding-bottom: 20px;">Software Engineer</h3>
-        <a href="assets/Courtney_Ripoll_Resume.pdf" target="_blank">Resume</a>
-        <span class="glyphicon glyphicon-chevron-down down"></span>
     </div>
-</div>
-<div id="side-menu" class="side-menu">
-    <div>&nbsp;</div>
-    <a href="#about">About</a>
-    <div>&nbsp;</div>
-    <a href="#experience">Experience</a>
-    <div>&nbsp;</div>
-    <a href="#skills">Skills</a>
-    <div>&nbsp;</div>
-    <a href="#projects">Projects</a>
-    <div>&nbsp;</div>
-    <a href="#recommendations">Recommendations</a>
-    <div>&nbsp;</div>
-    <a href="#contact">Contact</a>
-    <div>&nbsp;</div>
-</div>
-<div class="content-pane about-pane">
-    <h1><a id="about"></a>About</h1>
-    <p class="tag-line">I am a Software Engineer at Cisco Systems</p>
-    <hr>
-    <img class="avatar" src="assets/images/Ripoll_Courtney.JPG"/>
-    <div class="about-pane-content about-pane-content-1">
-        <p>
-            Hi, I'm Courtney! I am an all around software developer. I have a Masters degree in Computer
-            Science from North Carolina State University. Currently, I work full-time at Cisco Systems as a
-            Software Engineer in Collaboration Endpoints.
-        </p>
-        <p>
-            I have a hardwired desire to learn new things and apply my current technical skill set.
-            I am excited about all avenues of software and user interface design. Additionally,
-            I am passionate about graphic design and applying that to my current career path and aspirations.
-        </p>
-        <div class="cert-panel">
-            <span><img class="gsec-cert"
-                       src="assets/images/gsec-gold.png"/>&nbsp;GIAC Security Essentials Certified</span>
+    <div id="side-menu" class="side-menu">
+        <div>&nbsp;</div>
+        <a href="#about">About</a>
+        <div>&nbsp;</div>
+        <a href="#experience">Experience</a>
+        <div>&nbsp;</div>
+        <a href="#skills">Skills</a>
+        <div>&nbsp;</div>
+        <a href="#projects">Projects</a>
+        <div>&nbsp;</div>
+        <a href="#recommendations">Recommendations</a>
+        <div>&nbsp;</div>
+        <a href="#contact">Contact</a>
+        <div>&nbsp;</div>
+    </div>
+    <div class="content-pane about-pane">
+        <h1><a id="about"></a>About</h1>
+        <p class="tag-line">I am a Software Engineer at Cisco Systems</p>
+        <hr>
+        <img class="avatar" src="assets/images/Ripoll_Courtney.JPG" />
+        <div class="about-pane-content about-pane-content-1">
+            <p>
+                Hi, I'm Courtney! I am an all around software developer. I have a Masters degree in Computer
+                Science from North Carolina State University. Currently, I work full-time at Cisco Systems as a
+                Software Engineer in Collaboration Endpoints.
+            </p>
+            <p>
+                I have a hardwired desire to learn new things and apply my current technical skill set.
+                I am excited about all avenues of software and user interface design. Additionally,
+                I am passionate about graphic design and applying that to my current career path and aspirations.
+            </p>
+            <div class="cert-panel">
+                <span><img class="gsec-cert" src="assets/images/gsec-gold.png" />&nbsp;GIAC Security Essentials
+                    Certified</span>
+            </div>
+            <hr>
         </div>
+        <div class="about-pane-content about-pane-content-2">
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <th>Education:</th>
+                    <th>Degree:</th>
+                    <th>Location:</th>
+                </tr>
+                <tr>
+                    <td>Courtney T. Ripoll</td>
+                    <td>North Carolina State University '19</td>
+                    <td>Computer Science M.S.</td>
+                    <td>Raleigh-Durham</td>
+                </tr>
+            </table>
+        </div>
+        <div class="about-pane-content about-pane-content-3">
+            <p><b>Name: </b>Courtney T. Ripoll</p>
+            <p><b>Education: </b>North Carolina State University</p>
+            <p><b>Degree: </b>Computer Science M.S.</p>
+            <p><b>Location: </b>Raleigh-Durham</p>
+        </div>
+    </div>
+    <div class="content-pane experience-pane" style="background-color: #cccccc20">
+        <h1><a id="experience"></a>Experience</h1>
         <hr>
-    </div>
-    <div class="about-pane-content about-pane-content-2">
-        <table>
-            <tr>
-                <th>Name:</th>
-                <th>Education:</th>
-                <th>Degree:</th>
-                <th>Location:</th>
-            </tr>
-            <tr>
-                <td>Courtney T. Ripoll</td>
-                <td>North Carolina State University '19</td>
-                <td>Computer Science M.S.</td>
-                <td>Raleigh-Durham</td>
-            </tr>
-        </table>
-    </div>
-    <div class="about-pane-content about-pane-content-3">
-        <p><b>Name: </b>Courtney T. Ripoll</p>
-        <p><b>Education: </b>North Carolina State University</p>
-        <p><b>Degree: </b>Computer Science M.S.</p>
-        <p><b>Location: </b>Raleigh-Durham</p>
-    </div>
-</div>
-<div class="content-pane experience-pane" style="background-color: #cccccc20">
-    <h1><a id="experience"></a>Experience</h1>
-    <hr>
-    <div class="experience-pane-content-1">
-        <table>
-            <tr>
-                <td>
-                    <b style="font-size:18px;">Cisco</b><br>April 2021 - Present
-                    <div class="mobile_desc">
-                        <b>Software Engineer - Collaboration Endpoints</b>
-                        <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Morrisville, NC
+        <div class="experience-pane-content-1">
+            <table>
+                <tr>
+                    <td>
+                        <b style="font-size:18px;">Cisco</b><br>April 2021 - Present
+                        <div class="mobile_desc">
+                            <b>Software Engineer - Collaboration Endpoints</b>
+                            <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Morrisville,
+                                NC
+                            </div>
+                            <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
+                                    href="https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html"
+                                    target="_blank">www.cisco.com/collaboration-endpoints</a></div>
                         </div>
-                        <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
-                                href="https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html"
-                                target="_blank">www.cisco.com/collaboration-endpoints</a></div>
-                    </div>
-                </td>
-                <td class="desc">
-                    <p><b>Software Engineer - Collaboration Endpoints</b></p>
-                    <p>
-                        On the Collaboration Endpoints team at Cisco, my role as a software engineer requires me to work
-                        on GUI development for the WebEx products. My main responsibilities include owning and assisting
-                        with tasks for implementing interfaces features/widgets/apps, writing unit and helmet tests for
-                        those features/apps, and participating in agile procedures such as sprint planning. Other
-                        responsibilities involve fixing bugs when they are present and working with the UI/UX to ensure
-                        stable communication between design to implementation to release.
-                    </p>
-                    <p class="info-tag">
-                        <span class="glyphicon glyphicon-map-marker"></span>&nbsp;Morrisville, NC |
-                        <span class="glyphicon glyphicon-link"></span>&nbsp;
-                        <a href="https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html"
-                           target="_blank">www.cisco.com/collaboration-endpoints</a>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b style="font-size:18px;">Cisco</b><br>July 2019 - April 2021
-                    <div class="mobile_desc">
-                        <b>Vulnerability Management Software Engineer</b>
-                        <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Morrisville, NC
+                    </td>
+                    <td class="desc">
+                        <p><b>Software Engineer - Collaboration Endpoints</b></p>
+                        <p>
+                            On the Collaboration Endpoints team at Cisco, my role as a software engineer requires me to
+                            work
+                            on GUI development for the WebEx products. My main responsibilities include owning and
+                            assisting
+                            with tasks for implementing interfaces features/widgets/apps, writing unit and helmet tests
+                            for
+                            those features/apps, and participating in agile procedures such as sprint planning. Other
+                            responsibilities involve fixing bugs when they are present and working with the UI/UX to
+                            ensure
+                            stable communication between design to implementation to release.
+                        </p>
+                        <p class="info-tag">
+                            <span class="glyphicon glyphicon-map-marker"></span>&nbsp;Morrisville, NC |
+                            <span class="glyphicon glyphicon-link"></span>&nbsp;
+                            <a href="https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html"
+                                target="_blank">www.cisco.com/collaboration-endpoints</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b style="font-size:18px;">Cisco</b><br>July 2019 - April 2021
+                        <div class="mobile_desc">
+                            <b>Vulnerability Management Software Engineer</b>
+                            <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Morrisville,
+                                NC
+                            </div>
+                            <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
+                                    href="https://www.cisco.com" target="_blank">www.cisco.com</a></div>
                         </div>
-                        <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
-                                href="https://www.cisco.com"
-                                target="_blank">www.cisco.com</a></div>
-                    </div>
-                </td>
-                <td class="desc">
-                    <p><b>Vulnerability Management Software Engineer</b></p>
-                    <p>
-                        As an entry-level Software Engineer on a Vulnerability Management team at Cisco, my role has
-                        provided me the opportunity to learn from experienced security professionals the process of
-                        vulnerability scanning and to apply my technical skill set to those procedures. Some of my main
-                        responsibilities is to architect, develop, deploy, and support applications or scripts that
-                        assist with major metrics data needs for the team and upper-level management. I am
-                        a technical project lead for a web application that provides Cisco Security Engineering
-                        operational metrics. My responsibilities as a project lead involve designing and implementing
-                        the project while guiding development resources by providing a plan and time-lines. Other work
-                        includes
-                        upgrading various web application user interfaces, and automating important tasks to support our
-                        instance
-                        of the scanning infrastructure Qualys.
-                    </p>
-                    <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Morrisville, NC |
-                        <span class="glyphicon glyphicon-link"></span>&nbsp;<a href="https://www.cisco.com"
-                                                                               target="_blank">www.cisco.com</a></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b style="font-size:18px;">NCSU Undergraduate Labs</b><br>August 2017 - December 2018
-                    <div class="mobile_desc">
-                        <b>Teaching Assistant - Introduction to Java</b>
-                        <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC
+                    </td>
+                    <td class="desc">
+                        <p><b>Vulnerability Management Software Engineer</b></p>
+                        <p>
+                            As an entry-level Software Engineer on a Vulnerability Management team at Cisco, my role has
+                            provided me the opportunity to learn from experienced security professionals the process of
+                            vulnerability scanning and to apply my technical skill set to those procedures. Some of my
+                            main
+                            responsibilities is to architect, develop, deploy, and support applications or scripts that
+                            assist with major metrics data needs for the team and upper-level management. I am
+                            a technical project lead for a web application that provides Cisco Security Engineering
+                            operational metrics. My responsibilities as a project lead involve designing and
+                            implementing
+                            the project while guiding development resources by providing a plan and time-lines. Other
+                            work
+                            includes
+                            upgrading various web application user interfaces, and automating important tasks to support
+                            our
+                            instance
+                            of the scanning infrastructure Qualys.
+                        </p>
+                        <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Morrisville, NC |
+                            <span class="glyphicon glyphicon-link"></span>&nbsp;<a href="https://www.cisco.com"
+                                target="_blank">www.cisco.com</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b style="font-size:18px;">NCSU Undergraduate Labs</b><br>August 2017 - December 2018
+                        <div class="mobile_desc">
+                            <b>Teaching Assistant - Introduction to Java</b>
+                            <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC
+                            </div>
+                            <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
+                                    href="https://www.csc.ncsu.edu" target="_blank">www.csc.ncsu.edu</a></div>
                         </div>
-                        <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
-                                href="https://www.csc.ncsu.edu"
-                                target="_blank">www.csc.ncsu.edu</a></div>
-                    </div>
-                </td>
-                <td class="desc">
-                    <p><b>Teaching Assistant - Introduction to Java</b></p>
-                    <p>
-                        My responsibilities as a teaching assistant for Introduction to
-                        Java (CSC116) included attending class lectures to help students
-                        with any questions and in-class assignments. Along with that, I
-                        held personal office hours once a week to help students with any
-                        questions or problems they are having in relation to coursework.
-                        My duties as a TA, along with a co TA, involved grading all class
-                        assignments such as homework, exams, projects, etc. I also remained
-                        available outside of class via email and class forum.
-                    </p>
-                    <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC |
-                        <span class="glyphicon glyphicon-link"></span>&nbsp;<a href="https://www.csc.ncsu.edu"
-                                                                               target="_blank">www.csc.ncsu.edu</a></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b style="font-size:18px;">Allscripts</b><br>May 2018 - August 2018
-                    <div class="mobile_desc">
-                        <b>Software Development Intern</b>
-                        <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC
+                    </td>
+                    <td class="desc">
+                        <p><b>Teaching Assistant - Introduction to Java</b></p>
+                        <p>
+                            My responsibilities as a teaching assistant for Introduction to
+                            Java (CSC116) included attending class lectures to help students
+                            with any questions and in-class assignments. Along with that, I
+                            held personal office hours once a week to help students with any
+                            questions or problems they are having in relation to coursework.
+                            My duties as a TA, along with a co TA, involved grading all class
+                            assignments such as homework, exams, projects, etc. I also remained
+                            available outside of class via email and class forum.
+                        </p>
+                        <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC |
+                            <span class="glyphicon glyphicon-link"></span>&nbsp;<a href="https://www.csc.ncsu.edu"
+                                target="_blank">www.csc.ncsu.edu</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b style="font-size:18px;">Allscripts</b><br>May 2018 - August 2018
+                        <div class="mobile_desc">
+                            <b>Software Development Intern</b>
+                            <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC
+                            </div>
+                            <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
+                                    href="https://www.allscripts.com" target="_blank">www.allscripts.com</a></div>
                         </div>
-                        <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
-                                href="https://www.allscripts.com"
-                                target="_blank">www.allscripts.com</a></div>
-                    </div>
-                </td>
-                <td class="desc">
-                    <p><b>Software Development Intern</b></p>
-                    <p>
-                        As a Software Development Intern at Allscripts, I experienced firsthand
-                        the overall development process, which included the business and the technical
-                        areas of a project. My role provided me the opportunity to dive into a full-stack
-                        development project, exposing me to a wide range of software tools including
-                        ASP.NET Core, Visual Studio, C#, Javascript, CSS, and SQL databases. Additionally,
-                        I was able to assist my team in their development project, allowing me to engage in
-                        pair programming, to work in Angular, and participate in scrum meetings.
-                    </p>
-                    <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC |
-                        <span class="glyphicon glyphicon-link"></span>&nbsp;<a href="https://www.allscripts.com"
-                                                                               target="_blank">www.allscripts.com</a>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b style="font-size:18px;">Automotive Development Group</b><br>June 2017 - August 2017
-                    <div class="mobile_desc">
-                        <b>Data Entry Intern</b>
-                        <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Mooresville, NC
+                    </td>
+                    <td class="desc">
+                        <p><b>Software Development Intern</b></p>
+                        <p>
+                            As a Software Development Intern at Allscripts, I experienced firsthand
+                            the overall development process, which included the business and the technical
+                            areas of a project. My role provided me the opportunity to dive into a full-stack
+                            development project, exposing me to a wide range of software tools including
+                            ASP.NET Core, Visual Studio, C#, Javascript, CSS, and SQL databases. Additionally,
+                            I was able to assist my team in their development project, allowing me to engage in
+                            pair programming, to work in Angular, and participate in scrum meetings.
+                        </p>
+                        <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC |
+                            <span class="glyphicon glyphicon-link"></span>&nbsp;<a href="https://www.allscripts.com"
+                                target="_blank">www.allscripts.com</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b style="font-size:18px;">Automotive Development Group</b><br>June 2017 - August 2017
+                        <div class="mobile_desc">
+                            <b>Data Entry Intern</b>
+                            <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Mooresville,
+                                NC
+                            </div>
+                            <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
+                                    href="https://www.automotivedevelopmentgroup.com"
+                                    target="_blank">www.automotivedevelopmentgroup.com</a></div>
                         </div>
-                        <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
+                    </td>
+                    <td class="desc">
+                        <p><b>Data Entry Intern</b></p>
+                        <p>
+                            My main role at Automotive Development Group involved collecting
+                            and inputting data from incoming job applications into an online
+                            data source called Taleo. Additionally, I partook in designing and
+                            generating company reports based off of the hiring process and job
+                            requisitions. In relation to reporting, I took the initiative to
+                            develop and design an executable program to automate a specific
+                            reporting technique and streamline the process. At the conclusion
+                            of my time here, I wrote a manual about my acquired knowledge in the
+                            basics of reporting to aid the company in their future endeavors.
+                        </p>
+                        <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Mooresville, NC |
+                            <span class="glyphicon glyphicon-link"></span>&nbsp;<a
                                 href="https://www.automotivedevelopmentgroup.com"
-                                target="_blank">www.automotivedevelopmentgroup.com</a></div>
-                    </div>
-                </td>
-                <td class="desc">
-                    <p><b>Data Entry Intern</b></p>
-                    <p>
-                        My main role at Automotive Development Group involved collecting
-                        and inputting data from incoming job applications into an online
-                        data source called Taleo. Additionally, I partook in designing and
-                        generating company reports based off of the hiring process and job
-                        requisitions. In relation to reporting, I took the initiative to
-                        develop and design an executable program to automate a specific
-                        reporting technique and streamline the process. At the conclusion
-                        of my time here, I wrote a manual about my acquired knowledge in the
-                        basics of reporting to aid the company in their future endeavors.
-                    </p>
-                    <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Mooresville, NC |
-                        <span class="glyphicon glyphicon-link"></span>&nbsp;<a
-                                href="https://www.automotivedevelopmentgroup.com"
-                                target="_blank">www.automotivedevelopmentgroup.com</a></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b style="font-size:18px;">INTech Camp for Girls</b><br>June 2017
-                    <div class="mobile_desc">
-                        <b>Tech Mentor</b>
-                        <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC
+                                target="_blank">www.automotivedevelopmentgroup.com</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b style="font-size:18px;">INTech Camp for Girls</b><br>June 2017
+                        <div class="mobile_desc">
+                            <b>Tech Mentor</b>
+                            <div class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC
+                            </div>
+                            <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
+                                    href="http://intechcamp.co" target="_blank">intechcamp.co</a></div>
                         </div>
-                        <div class="info-tag"><span class="glyphicon glyphicon-link"></span>&nbsp;<a
-                                href="http://intechcamp.co"
-                                target="_blank">intechcamp.co</a></div>
-                    </div>
-                </td>
-                <td class="desc">
-                    <p><b>Tech Mentor</b></p>
-                    <p>
-                        As a technical mentor, I was responsible for teaching and assisting
-                        a group of middle school to high school aged girls while they built
-                        a website utilizing HTML, CSS, and Javascript. The girls attended
-                        lessons about the technology they we going to use, engaged in making
-                        paper prototypes, conducted research on their website topics, and then
-                        coded the final product.
-                    </p>
-                    <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC |
-                        <span class="glyphicon glyphicon-link"></span>&nbsp;<a href="http://intechcamp.co"
-                                                                               target="_blank">intechcamp.co</a></p>
-                </td>
-            </tr>
-        </table>
+                    </td>
+                    <td class="desc">
+                        <p><b>Tech Mentor</b></p>
+                        <p>
+                            As a technical mentor, I was responsible for teaching and assisting
+                            a group of middle school to high school aged girls while they built
+                            a website utilizing HTML, CSS, and Javascript. The girls attended
+                            lessons about the technology they we going to use, engaged in making
+                            paper prototypes, conducted research on their website topics, and then
+                            coded the final product.
+                        </p>
+                        <p class="info-tag"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Raleigh, NC |
+                            <span class="glyphicon glyphicon-link"></span>&nbsp;<a href="http://intechcamp.co"
+                                target="_blank">intechcamp.co</a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
-</div>
-<div class="content-pane skills-pane">
-    <h1><a id="skills"></a>Skills</h1>
-    <hr>
-    <div class="skills-pane-content skills-pane-content-1">
-        <h3>Coding Languages</h3>
+    <div class="content-pane skills-pane">
+        <h1><a id="skills"></a>Skills</h1>
         <hr>
-        <i title="Java" class="devicon-java-plain"></i>
-        <i title="Python" class="devicon-python-plain"></i>
-        <i title="C++" class="devicon-cplusplus-plain"></i>
-        <i title="ReactJS" class="devicon-react-original"></i>
-        <i title="Javascript" class="devicon-javascript-plain"></i>
-        <i title="HTML5" class="devicon-html5-plain"></i>
-        <i title="CSS" class="devicon-css3-plain"></i>
-        <i title="Less" class="devicon-less-plain-wordmark"></i>
-        <i title="Sass" class="devicon-sass-original"></i>
-        <i title="AngularJS" class="devicon-angularjs-plain"></i>
-        <i title="Ruby" class="devicon-ruby-plain"></i>
-        <i title="C" class="devicon-c-plain"></i>
+        <div class="skills-pane-content skills-pane-content-1">
+            <h3>Coding Languages</h3>
+            <hr>
+            <i title="Java" class="devicon-java-plain"></i>
+            <i title="Python" class="devicon-python-plain"></i>
+            <i title="C++" class="devicon-cplusplus-plain"></i>
+            <i title="ReactJS" class="devicon-react-original"></i>
+            <i title="Javascript" class="devicon-javascript-plain"></i>
+            <i title="HTML5" class="devicon-html5-plain"></i>
+            <i title="CSS" class="devicon-css3-plain"></i>
+            <i title="Less" class="devicon-less-plain-wordmark"></i>
+            <i title="Sass" class="devicon-sass-original"></i>
+            <i title="AngularJS" class="devicon-angularjs-plain"></i>
+            <i title="Ruby" class="devicon-ruby-plain"></i>
+            <i title="C" class="devicon-c-plain"></i>
+        </div>
+        <div class="skills-pane-content skills-pane-content-2">
+            <h3>Software Tools and Technologies</h3>
+            <hr>
+            <i title="Node.js" class="devicon-nodejs-plain"></i>
+            <i title="Git" class="devicon-git-plain"></i>
+            <i title="MySQL" class="devicon-mysql-plain"></i>
+            <i title="SQL Alchemy" class="devicon-sqlalchemy-plain"></i>
+            <i title="Bootstrap" class="devicon-bootstrap-plain"></i>
+            <i title="Apache" class="devicon-apache-line-wordmark"></i>
+            <i title="Cucumber" class="devicon-cucumber-plain"></i>
+            <i title="Oracle DB" class="devicon-oracle-original"></i>
+            <i title="Rails" class="devicon-rails-plain"></i>
+            <i title="Heroku" class="devicon-heroku-original"></i>
+        </div>
+        <div class="skills-pane-content skills-pane-content-3">
+            <h3>Operating Systems</h3>
+            <hr>
+            <i title="Windows" class="devicon-windows8-original"></i>
+            <i title="Linux" class="devicon-linux-plain"></i>
+            <i title="MacOSX" class="devicon-apple-original"></i>
+        </div>
+        <div class="skills-pane-content skills-pane-content-4">
+            <h3>Other Skills</h3>
+            <hr>
+            <i title="Gimp 2.0" class="devicon-gimp-plain"></i>
+            <i title="Photoshop" class="devicon-photoshop-plain"></i>
+        </div>
     </div>
-    <div class="skills-pane-content skills-pane-content-2">
-        <h3>Software Tools and Technologies</h3>
+    <div class="content-pane projects-pane" style="background-color: #cccccc20">
+        <h1><a id="projects"></a>Projects</h1>
         <hr>
-        <i title="Node.js" class="devicon-nodejs-plain"></i>
-        <i title="Git" class="devicon-git-plain"></i>
-        <i title="MySQL" class="devicon-mysql-plain"></i>
-        <i title="SQL Alchemy" class="devicon-sqlalchemy-plain"></i>
-        <i title="Bootstrap" class="devicon-bootstrap-plain"></i>
-        <i title="Apache" class="devicon-apache-line-wordmark"></i>
-        <i title="Cucumber" class="devicon-cucumber-plain"></i>
-        <i title="Oracle DB" class="devicon-oracle-original"></i>
-        <i title="Rails" class="devicon-rails-plain"></i>
-        <i title="Heroku" class="devicon-heroku-original"></i>
+        <div class="projects-pane-content">
+            <div class="proj-container">
+                <img src="assets/images/projects/spikes_guide.PNG" />
+                <span class="glyphicon glyphicon-new-window proj-link"></span>
+                <a href="https://spikesrewrittenguide.com/" target="_blank">
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Spike's Rewritten Guide</h3>
+                            <hr>
+                            <p>Self-made player guide for online computer game Toontown Rewritten.</p>
+                            <p><b>Tags: </b>Development, Design, ReactJS, HTML, Sass, Javascript, Node, GIMP</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <span class="nb">
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+            </span>
+            <div class="proj-container">
+                <img src="assets/images/projects/deskhub.jpg" style="background-color: #434242;" />
+                <span class="glyphicon glyphicon-new-window proj-link"></span>
+                <a href="https://hardware.webex.com/products/cisco-webex-desk-hub" target="_blank">
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Webex Hotdesking</h3>
+                            <hr>
+                            <p>A feature on Cisco Webex devices that reimagines
+                                the hybrid workplace and personal video conferencing.</p>
+                            <p><b>Tags: </b>C++, QML, Hardware, Design, Development, Fullstack</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="projects-pane-content">
+            <div class="proj-container">
+                <img src="assets/images/projects/scoring_project.PNG" />
+                <span class="glyphicon glyphicon-new-window proj-link"></span>
+                <a href="https://github.com/ctripoll/scoring_project" target="_blank">
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Scoring Project</h3>
+                            <hr>
+                            <p>A console-based program that reads in HTML files and outputs a calculated score.</p>
+                            <p><b>Tags: </b>Development, Java, MySQL, Console</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <span class="nb">
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+            </span>
+            <div class="proj-container">
+                <img src="assets/images/projects/req_reporter.PNG">
+                <span class="glyphicon glyphicon-new-window proj-link"></span>
+                <a href="https://github.com/ctripoll/ADG_RequisitionReporter" target="_blank">
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>ADG Requisition Reporter</h3>
+                            <hr>
+                            <p>GUI app finds jobs not posted to a public job
+                                database. Developed during internship at ADG.</p>
+                            <p><b>Tags: </b>Development, Design, UML, Java, Apache POI, GUI</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="projects-pane-content">
+            <div class="proj-container">
+                <img src="assets/images/projects/freshspire.PNG" />
+                <span class="glyphicon glyphicon-new-window proj-link"></span>
+                <a href="https://github.com/ckres/teamfresh" target="_blank">
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Freshspire Mobile UI</h3>
+                            <hr>
+                            <p>A nonfunctional mobile (and web) front-end for the company FreshSpire (prototype
+                                version).</p>
+                            <p><b>Tags: </b>Front-end Development, Design, ReactJS, HTML, Sass</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <span class="nb">
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+            </span>
+            <div class="proj-container">
+                <img src="assets/images/projects/ttr_tracker.PNG">
+                <span class="glyphicon glyphicon-new-window proj-link"></span>
+                <a href="https://ttr-invasion-tracker.herokuapp.com/" target="_blank">
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Toontown Invasion Tracker</h3>
+                            <hr>
+                            <p>Python Flask web application pulls data from the online game to display current cog
+                                invasions.</p>
+                            <p><b>Tags: </b>Development, Design, Flask, Python, JS</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div style="padding: 10px 10px 25px 10px;">
+            <i>View more projects on my personal <a href="https://github.com/ctripoll"
+                    target="_blank">GitHub</a></i><br>
+            <i>Private projects available upon request (17+ projects available)</i>
+        </div>
+        <div class="this_proj_button">
+            <a href="https://github.com/ctripoll/courtney_ripoll" target="_blank">View this project on GitHub</a>
+        </div>
     </div>
-    <div class="skills-pane-content skills-pane-content-3">
-        <h3>Operating Systems</h3>
+    <div class="content-pane recommendations-pane">
+        <h1><a id="recommendations"></a>Recommendations</h1>
         <hr>
-        <i title="Windows" class="devicon-windows8-original"></i>
-        <i title="Linux" class="devicon-linux-plain"></i>
-        <i title="MacOSX" class="devicon-apple-original"></i>
-    </div>
-    <div class="skills-pane-content skills-pane-content-4">
-        <h3>Other Skills</h3>
-        <hr>
-        <i title="Gimp 2.0" class="devicon-gimp-plain"></i>
-        <i title="Photoshop" class="devicon-photoshop-plain"></i>
-    </div>
-</div>
-<div class="content-pane projects-pane" style="background-color: #cccccc20">
-    <h1><a id="projects"></a>Projects</h1>
-    <hr>
-    <div class="projects-pane-content">
-        <div class="proj-container">
-            <img src="assets/images/projects/spikes_guide.PNG"/>
-            <span class="glyphicon glyphicon-new-window proj-link"></span>
-            <a href="https://spikesrewrittenguide.com/" target="_blank">
-                <div class="overlay">
-                    <div class="text">
-                        <h3>Spike's Rewritten Guide</h3>
-                        <hr>
-                        <p>Self-made player guide for online computer game Toontown Rewritten.</p>
-                        <p><b>Tags: </b>Development, Design, ReactJS, HTML, Sass, Javascript, Node, GIMP</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <span class="nb"><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div></span>
-        <div class="proj-container">
-            <img src="assets/images/projects/freshspire.PNG"/>
-            <span class="glyphicon glyphicon-new-window proj-link"></span>
-            <a href="https://github.com/ckres/teamfresh" target="_blank">
-                <div class="overlay">
-                    <div class="text">
-                        <h3>Freshspire Mobile UI</h3>
-                        <hr>
-                        <p>A nonfunctional mobile (and web) front-end for the company FreshSpire (prototype
-                            version).</p>
-                        <p><b>Tags: </b>Front-end Development, Design, ReactJS, HTML, Sass</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="projects-pane-content">
-        <div class="proj-container">
-            <img src="assets/images/projects/scoring_project.PNG"/>
-            <span class="glyphicon glyphicon-new-window proj-link"></span>
-            <a href="https://github.com/ctripoll/scoring_project" target="_blank">
-                <div class="overlay">
-                    <div class="text">
-                        <h3>Scoring Project</h3>
-                        <hr>
-                        <p>A console-based program that reads in HTML files and outputs a calculated score.</p>
-                        <p><b>Tags: </b>Development, Java, MySQL, Console</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <span class="nb"><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div></span>
-        <div class="proj-container">
-            <img src="assets/images/projects/req_reporter.PNG">
-            <span class="glyphicon glyphicon-new-window proj-link"></span>
-            <a href="https://github.com/ctripoll/ADG_RequisitionReporter" target="_blank">
-                <div class="overlay">
-                    <div class="text">
-                        <h3>ADG Requisition Reporter</h3>
-                        <hr>
-                        <p>GUI app finds jobs not posted to a public job
-                            database. Developed during internship at ADG.</p>
-                        <p><b>Tags: </b>Development, Design, UML, Java, Apache POI, GUI</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="projects-pane-content">
-        <div class="proj-container">
-            <img src="assets/images/projects/Daashed_Logo.png" style="background-color: #434242;"/>
-            <!--<span class="glyphicon glyphicon-new-window proj-link"></span>-->
-            <a href="javascript:void(0)">
-                <div class="overlay">
-                    <div class="text">
-                        <h3>Daashed Mobile</h3>
-                        <hr>
-                        <p>A iOS mobile application for managing and organizing coupons. ~In progress~</p>
-                        <p><b>Tags: </b>Mobile development, React-Native, MongoDB, Swift, Fullstack</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <span class="nb"><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div></span>
-        <div class="proj-container">
-            <img src="assets/images/projects/ttr_tracker.PNG">
-            <span class="glyphicon glyphicon-new-window proj-link"></span>
-            <a href="https://ttr-invasion-tracker.herokuapp.com/" target="_blank">
-                <div class="overlay">
-                    <div class="text">
-                        <h3>Toontown Invasion Tracker</h3>
-                        <hr>
-                        <p>Python Flask web application pulls data from the online game to display current cog
-                            invasions.</p>
-                        <p><b>Tags: </b>Development, Design, Flask, Python, JS</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div style="padding: 10px 10px 25px 10px;">
-        <i>View more projects on my personal <a href="https://github.com/ctripoll" target="_blank">GitHub</a></i><br>
-        <i>Private projects available upon request (17+ projects available)</i>
-    </div>
-    <div class="this_proj_button">
-        <a href="https://github.com/ctripoll/courtney_ripoll" target="_blank">View this project on GitHub</a>
-    </div>
-</div>
-<div class="content-pane recommendations-pane">
-    <h1><a id="recommendations"></a>Recommendations</h1>
-    <hr>
-    <div class="recommendations-pane-content-1">
-        <table>
-            <tr>
-                <td>
-                    <b style="font-size:18px;">Chris Teodorski</b><br>Cisco Manager - 2020
-                    <div class="mobile_desc">
+        <div class="recommendations-pane-content-1">
+            <table>
+                <tr>
+                    <td>
+                        <b style="font-size:18px;">Chris Teodorski</b><br>Cisco Manager - 2020
+                        <div class="mobile_desc">
+                            <p>
+                                "Courtney reported directly to me for the first year of her career. Courtney is
+                                incredibly
+                                talented, motivated and conscientious. She has a strong "can do" work ethic and is not
+                                afraid to
+                                jump in and tackle challenges that come her way. Through out the challenges of the
+                                pandemic
+                                and
+                                the transition to work from home, Courtney didn't miss a beat. She takes care of her
+                                teammates
+                                and is always open to feedback and has a strong desire to better herself. Courtney's
+                                career
+                                is
+                                just starting and I'm confident she has big things in her future. She would be a great
+                                addition
+                                to any development team."
+                            </p>
+                        </div>
+                    </td>
+                    <td class="desc">
                         <p>
                             "Courtney reported directly to me for the first year of her career. Courtney is incredibly
                             talented, motivated and conscientious. She has a strong "can do" work ethic and is not
@@ -484,91 +531,95 @@
                             addition
                             to any development team."
                         </p>
-                    </div>
-                </td>
-                <td class="desc">
-                    <p>
-                        "Courtney reported directly to me for the first year of her career. Courtney is incredibly
-                        talented, motivated and conscientious. She has a strong "can do" work ethic and is not afraid to
-                        jump in and tackle challenges that come her way. Through out the challenges of the pandemic and
-                        the transition to work from home, Courtney didn't miss a beat. She takes care of her teammates
-                        and is always open to feedback and has a strong desire to better herself. Courtney's career is
-                        just starting and I'm confident she has big things in her future. She would be a great addition
-                        to any development team."
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b style="font-size:18px;">Hanna Fernandez</b><br>Development Partner - Present
-                    <div class="mobile_desc">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b style="font-size:18px;">Hanna Fernandez</b><br>Development Partner - Present
+                        <div class="mobile_desc">
+                            <p>
+                                "Courtney is a motivated, multi-talented software engineer with a passion for people.
+                                Through the years we’ve worked closely together, on an iOS app we’re co-developing and
+                                on
+                                countless projects during our time in college, and she has always been unfailingly
+                                reliable,
+                                compassionate, and is the kind of person who lifts you up. Her work is always executed
+                                to an
+                                impeccably high standard, and she would be a valuable asset to any team."
+                            </p>
+                        </div>
+                    </td>
+                    <td class="desc">
                         <p>
                             "Courtney is a motivated, multi-talented software engineer with a passion for people.
-                            Through the years we’ve worked closely together, on an iOS app we’re co-developing and on
-                            countless projects during our time in college, and she has always been unfailingly reliable,
+                            Through
+                            the years we’ve worked closely together, on an iOS app we’re co-developing and on countless
+                            projects during our time in college, and she has always been unfailingly reliable,
                             compassionate, and is the kind of person who lifts you up. Her work is always executed to an
                             impeccably high standard, and she would be a valuable asset to any team."
                         </p>
-                    </div>
-                </td>
-                <td class="desc">
-                    <p>
-                        "Courtney is a motivated, multi-talented software engineer with a passion for people. Through
-                        the years we’ve worked closely together, on an iOS app we’re co-developing and on countless
-                        projects during our time in college, and she has always been unfailingly reliable,
-                        compassionate, and is the kind of person who lifts you up. Her work is always executed to an
-                        impeccably high standard, and she would be a valuable asset to any team."
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b style="font-size:18px;">Bryan Lenihan</b><br>AllScripts Mentor - 2018
-                    <div class="mobile_desc">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b style="font-size:18px;">Bryan Lenihan</b><br>AllScripts Mentor - 2018
+                        <div class="mobile_desc">
+                            <p>
+                                "I had the privilege of having Courtney be part of our intern program while at
+                                Allscripts
+                                Healthcare. Courtney was an intern assigned to our Web Development group for regulatory
+                                healthcare reporting. Courtney jumped right in and not only took on her intern
+                                assignments
+                                but actively became part of our development team working on the mainline production
+                                codebase. By the end of Courtney's internship, the team considered Courtney not as an
+                                intern
+                                but as a member of the development team. While Courtney showed development skills and
+                                understanding as an intern that were above some of the "senior level" developers on the
+                                team; Courney's ability in skills not taught in school was what stood out. Courtney has
+                                a
+                                strong ability to identify, analyze, create and execute an action plan for almost any
+                                problem presented and not presented. I look forward to working with Courtney again in
+                                the
+                                future."
+                            </p>
+                        </div>
+                    </td>
+                    <td class="desc">
                         <p>
                             "I had the privilege of having Courtney be part of our intern program while at Allscripts
                             Healthcare. Courtney was an intern assigned to our Web Development group for regulatory
                             healthcare reporting. Courtney jumped right in and not only took on her intern assignments
-                            but actively became part of our development team working on the mainline production
-                            codebase. By the end of Courtney's internship, the team considered Courtney not as an intern
-                            but as a member of the development team. While Courtney showed development skills and
-                            understanding as an intern that were above some of the "senior level" developers on the
-                            team; Courney's ability in skills not taught in school was what stood out. Courtney has a
-                            strong ability to identify, analyze, create and execute an action plan for almost any
-                            problem presented and not presented. I look forward to working with Courtney again in the
-                            future."
+                            but
+                            actively became part of our development team working on the mainline production codebase. By
+                            the
+                            end of Courtney's internship, the team considered Courtney not as an intern but as a member
+                            of
+                            the development team. While Courtney showed development skills and understanding as an
+                            intern
+                            that were above some of the "senior level" developers on the team; Courney's ability in
+                            skills
+                            not taught in school was what stood out. Courtney has a strong ability to identify, analyze,
+                            create and execute an action plan for almost any problem presented and not presented. I look
+                            forward to working with Courtney again in the future."
                         </p>
-                    </div>
-                </td>
-                <td class="desc">
-                    <p>
-                        "I had the privilege of having Courtney be part of our intern program while at Allscripts
-                        Healthcare. Courtney was an intern assigned to our Web Development group for regulatory
-                        healthcare reporting. Courtney jumped right in and not only took on her intern assignments but
-                        actively became part of our development team working on the mainline production codebase. By the
-                        end of Courtney's internship, the team considered Courtney not as an intern but as a member of
-                        the development team. While Courtney showed development skills and understanding as an intern
-                        that were above some of the "senior level" developers on the team; Courney's ability in skills
-                        not taught in school was what stood out. Courtney has a strong ability to identify, analyze,
-                        create and execute an action plan for almost any problem presented and not presented. I look
-                        forward to working with Courtney again in the future."
-                    </p>
-                </td>
-            </tr>
-        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
-</div>
-<div class="contact-pane" style="background-color: #434242">
-    <h1><a id="contact"></a>Contact</h1>
-    <br>
-    <p>Email: <u>courtney.t.ripoll@gmail.com</u></p>
-    <a href="https://github.com/ctripoll" target="_blank"><img src="assets/images/social_icons/if_GitHub_2503954.svg"/></a>
-    <a href="https://www.linkedin.com/in/courtney-ripoll-02a36a12a/" target="_blank"><img
-            src="assets/images/social_icons/if_Linkedin_2510823.svg"/></a>
-    <a href="mailto:courtney.t.ripoll@gmail.com"><img src="assets/images/social_icons/if_Gmail_2503960.svg"/></a>
-    <p></p>
-    <p>&copy; Courtney Ripoll. All Rights Reserved</p>
-</div>
-<script src="assets/js/main.js"></script>
+    <div class="contact-pane" style="background-color: #434242">
+        <h1><a id="contact"></a>Contact</h1>
+        <br>
+        <p>Email: <u>courtney.t.ripoll@gmail.com</u></p>
+        <a href="https://github.com/ctripoll" target="_blank"><img
+                src="assets/images/social_icons/if_GitHub_2503954.svg" /></a>
+        <a href="https://www.linkedin.com/in/courtney-ripoll-02a36a12a/" target="_blank"><img
+                src="assets/images/social_icons/if_Linkedin_2510823.svg" /></a>
+        <a href="mailto:courtney.t.ripoll@gmail.com"><img src="assets/images/social_icons/if_Gmail_2503960.svg" /></a>
+        <p></p>
+        <p>&copy; Courtney Ripoll. All Rights Reserved</p>
+    </div>
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
