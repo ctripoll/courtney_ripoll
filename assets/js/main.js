@@ -1,21 +1,26 @@
-$(document).on("scroll", function() {
-    if($(document).scrollTop() > window.innerHeight) {
-        $("#side-menu").addClass("fixed");
-    } else {
-        $("#side-menu").removeClass("fixed");
-    }
-});
+document.addEventListener('DOMContentLoaded', function () {
+    const navbar = document.querySelector('.navbar-collapse');
+    const toggler = document.querySelector('.navbar-toggler');
 
-$(document).ready(function(){
-    $("a").on('click', function(event) {
-        if (this.hash !== "") {
-        event.preventDefault();
-        var hash = this.hash;
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top
-        }, 800, function(){
-            window.location.hash = hash;
-        });
+    document.addEventListener('click', function (event) {
+        // Only run on screen widths below 992px (Bootstrap's lg breakpoint)
+        if (window.innerWidth >= 992) return;
+
+        // Check if navbar is open
+        const isNavbarOpen = navbar.classList.contains('show');
+
+        // If open and click is outside navbar and toggler, close it
+        if (
+            isNavbarOpen &&
+            !navbar.contains(event.target) &&
+            !toggler.contains(event.target)
+        ) {
+            const bsCollapse = bootstrap.Collapse.getInstance(navbar);
+            if (bsCollapse) {
+                bsCollapse.hide();
+            } else {
+                new bootstrap.Collapse(navbar).hide();
+            }
         }
     });
 });
