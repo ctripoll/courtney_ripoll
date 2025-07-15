@@ -185,6 +185,16 @@ h6 {
     margin-bottom: 1rem !important;
 }
 
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+h1 .blink {
+    animation: blink 1.2s step-start infinite;
+}
+
 .navbar-toggler,
 button,
 img {
